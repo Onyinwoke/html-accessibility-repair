@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Accessibility Repair</title>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+  </header>
+
+  <main>
+    <section aria-labelledby="team-heading">
+      <h2 id="team-heading">Meet Our Team</h2>
+
+      <img
+        src="team.jpg"
+        alt="Our team members"
+        width="400"
+      >
+
+      <p>Learn about our team and the work we do.</p>
+    </section>
+
+    <section aria-labelledby="login-heading">
+      <h2 id="login-heading">Member Login</h2>
+
+      <button type="button">Login</button>
+      <!-- Connect the button to the real login function when implemented. -->
+    </section>
+
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+
+      <form action="#" method="get">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <p>
+        Find information about our
+        <a href="/services">services and what we offer</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Accessibility Repair Assignment 2.9</p>
+  </footer>
+</body>
+</html>
